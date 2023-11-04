@@ -72,21 +72,22 @@ body{
 /* create a style for paragraphs */
   p{
     color: #8D55AF;
-    font-family: arial;
-    font-size: 30px;
-    text-decoration: underline;
-    text-align: center;
-    }
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+          }
 /* create a style for content for about us.html file */
 #content{
   background-color: #D6B6DC;
-  color: black;
-  opacity: 0.85;
-  padding: 10px;
-  width: 62%;
-  height: 350px;
-  margin-left: 3%;
+  height:45%;
+  font-size: 20px;
   text-align: center;
+  align-items: center;
+  opacity: 0.85;
+  width: 62%;
+  margin-left: 3%;
   float: left;
   border: 2px double black;
   }
@@ -108,17 +109,21 @@ body{
   background-color: #c0b0c2;
   color: blue;
   opacity: 0.9;
-  padding: 10px;
+  padding: 15px;
+  padding-bottom: 25px;
   width: 62%;
-  height: 350px;
+/*  height: 350px;*/
   margin-left: 3%;
   text-align: center;
   float: left;
   border: 3px double white;
   border-radius: 20px;
-  line-height: 30px;
+  line-height: 15px;
   }
   /* create a style for block of pictures from gallery.html file */
+#text.content{
+    line-height: 10px;
+  }
 #pictures{
   width: 65%;
   text-align: center;
@@ -132,6 +137,13 @@ body{
   border: 2px solid #777;
 }
 /* create a style for footer block */
+.line_input{
+  color: black;
+  line-height: 30px;
+  align-items: flex-end;
+
+}
+
 #footer{
   width: 80%;
   margin-bottom: 50px;
